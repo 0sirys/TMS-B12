@@ -3334,7 +3334,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C577292"
+		(property "LCSC Part" "C970657"
 			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -3461,6 +3461,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C136961"
+			(at 215.9 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12ed93b9-24bf-43a6-872b-8be6b9cf59d1")
 		)
@@ -3533,6 +3544,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 236.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49326632"
 			(at 236.22 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3740,6 +3762,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 242.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49326632"
 			(at 242.57 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4215,6 +4248,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14664"
+			(at 304.8 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "166a10c2-c999-49b1-8c88-431763133e3d")
 		)
@@ -4252,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V"
 			(at 318.77 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,6 +4330,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 314.96 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 314.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4334,7 +4389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 50V"
 			(at 189.23 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,6 +4423,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 185.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4615,6 +4681,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C502545"
+			(at 292.1 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "165f80dc-833f-490e-9d68-1d54dfdffd27")
 		)
@@ -4825,7 +4902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF 10V"
+		(property "Value" "100pF 16V"
 			(at 203.2 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,6 +4936,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 207.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C519407"
 			(at 207.01 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4941,6 +5029,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22930"
 			(at 215.9 132.08 0)
 			(hide yes)
 			(show_name no)

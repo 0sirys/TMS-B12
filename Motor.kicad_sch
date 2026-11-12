@@ -2018,7 +2018,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Red led"
 			(at 144.526 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2063,6 +2063,17 @@
 		)
 		(property "PROD_ID" "DIO-17976"
 			(at 144.78 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 144.78 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,6 +2161,17 @@
 			)
 		)
 		(property "Description" "SMA Schottky diode, 40V, 1A, Alternate KiCAD Library"
+			(at 152.4 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2480"
 			(at 152.4 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2376,7 +2398,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 155.448 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,6 +2432,17 @@
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
 			(at 154.94 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C107696"
+			(at 154.94 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

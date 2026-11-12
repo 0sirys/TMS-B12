@@ -1858,6 +1858,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2480"
+			(at 180.34 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d81a3dee-047f-4c7d-b78f-0a979fc6127c")
 		)
@@ -1904,7 +1915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 50V"
 			(at 254 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1938,6 +1949,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 250.19 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 250.19 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -1992,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 183.388 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,6 +2048,17 @@
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
 			(at 182.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C107696"
+			(at 182.88 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2201,6 +2234,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C108078"
 			(at 228.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -2473,6 +2517,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C105576"
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de6701cd-5cc9-4069-ae63-9dd959f5e837")
 		)
@@ -2517,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "Red led"
 			(at 172.466 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,6 +2617,17 @@
 		)
 		(property "PROD_ID" "DIO-17976"
 			(at 172.72 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

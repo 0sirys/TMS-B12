@@ -2885,7 +2885,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2944,6 +2944,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C19357"
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "026ed77b-5105-422f-ad36-6bbdfd5543e1")
 		)
@@ -2965,7 +2976,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3014,6 +3025,17 @@
 			)
 		)
 		(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
+			(at 353.06 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19357"
 			(at 353.06 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -3160,7 +3182,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3209,6 +3231,17 @@
 			)
 		)
 		(property "Description" "DO-41 Diode, Rectifier, 1000V, 1A, Alternate KiCad Library"
+			(at 353.06 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19357"
 			(at 353.06 208.28 0)
 			(hide yes)
 			(show_name no)

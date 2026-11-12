@@ -927,6 +927,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C107696"
+			(at 170.18 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a305da92-b6a0-47ef-b874-9e1b447f0a28")
 		)
@@ -1103,6 +1114,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C20917"
+			(at 193.04 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20c0bd27-b437-4e52-a525-748661c6f145")
 		)
@@ -1186,6 +1208,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 181.61 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C95204"
 			(at 181.61 106.68 0)
 			(hide yes)
 			(show_name no)

@@ -9,6 +9,389 @@
 		(rev "0.0")
 	)
 	(lib_symbols
+		(symbol "Connector:Microsemi_FlashPro-JTAG-10"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 4.445 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Microsemi_FlashPro-JTAG-10"
+				(at 2.54 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an"
+				(at -32.385 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ACTEL FLASH PRO 3/4, JTAG, IDC10 Pinheader Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "JTAG IDC10 Pinheader Pins Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "IDC?Header*2x05* Pin?Header*2x05*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Microsemi_FlashPro-JTAG-10_0_1"
+				(rectangle
+					(start -2.667 11.43)
+					(end -2.413 10.668)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.127 11.43)
+					(end 0.127 10.668)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.127 -10.668)
+					(end 0.127 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 11.43)
+					(end -8.89 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 8.89 7.747)
+					(end 8.128 7.493)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 5.207)
+					(end 8.128 4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 2.667)
+					(end 8.128 2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 0.127)
+					(end 8.128 -0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 -2.413)
+					(end 8.128 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 -4.953)
+					(end 8.128 -5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Microsemi_FlashPro-JTAG-10_1_1"
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "PGM/NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 3.81)
+					(name "VJTAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 15.24 270)
+					(length 3.81)
+					(name "VPUMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "~{TRST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:ESD5Zxx"
 			(pin_numbers
 				(hide yes)
@@ -157,6 +540,199 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:B0540W_C7420325"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B0540W"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SOD-123_L2.7-W1.6-LS3.7-FD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7420325.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "R+O(宏嘉诚)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "B0540W"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7420325"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B0540W_C7420325_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.78) (xy 1.27 0) (xy -1.27 1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.78 -1.27) (xy 1.78 -1.78) (xy 1.27 -1.78) (xy 1.27 1.78) (xy 0.76 1.78) (xy 0.76 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B0540W_C7420325_1_1"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,6 +3201,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3100,6 +3815,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 232.41) (xy 143.51 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e55b203-ba0c-422c-8552-bdfec689ab6f")
+	)
+	(wire
+		(pts
 			(xy 170.18 135.89) (xy 191.77 135.89)
 		)
 		(stroke
@@ -3470,6 +4195,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 237.49) (xy 143.51 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ed0bff-288f-4ee0-bec2-2e9e4deae833")
+	)
+	(wire
+		(pts
 			(xy 365.76 204.47) (xy 379.73 204.47)
 		)
 		(stroke
@@ -3590,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 219.71) (xy 128.27 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525c7bd1-94b1-4a54-a009-4a9a2746d5c8")
+	)
+	(wire
+		(pts
 			(xy 271.78 107.95) (xy 288.29 107.95)
 		)
 		(stroke
@@ -3637,6 +4382,26 @@
 			(type default)
 		)
 		(uuid "57fa19b0-42db-42f0-a5b9-d1be745683dd")
+	)
+	(wire
+		(pts
+			(xy 128.27 205.74) (xy 128.27 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fbd5ba-c41f-459d-b332-9ace3719b6b1")
+	)
+	(wire
+		(pts
+			(xy 148.59 234.95) (xy 143.51 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c7a551-7d1f-4f23-9368-ec8f832b5d6f")
 	)
 	(wire
 		(pts
@@ -4500,6 +5265,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 229.87) (xy 143.51 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde6f8a4-5a5c-40bd-8307-1314484610d3")
+	)
+	(wire
+		(pts
 			(xy 208.28 92.71) (xy 209.55 92.71)
 		)
 		(stroke
@@ -4547,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "d44814a4-b604-497e-beb3-7ac1316d2b6a")
+	)
+	(wire
+		(pts
+			(xy 148.59 240.03) (xy 143.51 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ddddff-c7f2-4fe5-b475-7a989ffc62c9")
 	)
 	(wire
 		(pts
@@ -4657,6 +5442,16 @@
 			(type default)
 		)
 		(uuid "e3002ebb-99ba-40c5-bd6f-8ebe14338797")
+	)
+	(wire
+		(pts
+			(xy 130.81 255.27) (xy 130.81 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c892fd-b4e9-4e30-ad40-8b9692f31b87")
 	)
 	(wire
 		(pts
@@ -4858,6 +5653,16 @@
 		)
 		(uuid "1f7acda1-191e-4046-a24f-e8595beb5bf7")
 	)
+	(label "JTDO"
+		(at 148.59 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "201323cf-cec3-437b-bbf2-c5461ad7c23e")
+	)
 	(label "OSC_OUT"
 		(at 195.58 105.41 0)
 		(effects
@@ -4867,6 +5672,16 @@
 			(justify left bottom)
 		)
 		(uuid "2332f422-8d44-46b3-b294-dbf4d1e8545c")
+	)
+	(label "JTCK"
+		(at 148.59 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "262642ef-86b5-4062-90cf-a779e8825165")
 	)
 	(label "M1_RPWM"
 		(at 330.2 81.28 180)
@@ -5079,6 +5894,16 @@
 		(uuid "58890e21-46ba-4171-bd5c-bd5d11fbb012")
 	)
 	(label "JTDI"
+		(at 148.59 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59365087-394f-4652-8183-2ae33b5438c6")
+	)
+	(label "JTDI"
 		(at 271.78 69.85 180)
 		(effects
 			(font
@@ -5218,6 +6043,16 @@
 		)
 		(uuid "a0f46bce-184c-437a-bfd9-1ec94ca72d4d")
 	)
+	(label "JTMS"
+		(at 148.59 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3c87f88-fe02-411a-8cb9-a8e16dd4b111")
+	)
 	(label "M3_LPWM"
 		(at 330.2 129.54 180)
 		(effects
@@ -5247,6 +6082,16 @@
 			(justify right bottom)
 		)
 		(uuid "b0945bb7-b4a2-4c00-98a8-54c614f22a7c")
+	)
+	(label "NJTRST"
+		(at 148.59 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b255819f-99c1-49f3-9f5b-def09d09a24c")
 	)
 	(label "M3_EN2"
 		(at 330.2 134.62 180)
@@ -5714,6 +6559,123 @@
 		(uuid "f769f625-ce38-42a1-8292-0274a1aa7a79")
 	)
 	(symbol
+		(lib_id "Connector:Microsemi_FlashPro-JTAG-10")
+		(at 130.81 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01ec26d1-50fd-4cdb-a5cc-a9c57fe118a2")
+		(property "Reference" "J1"
+			(at 120.65 236.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Microsemi_FlashPro-JTAG-10"
+			(at 120.65 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+			(at 127 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an"
+			(at 98.425 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ACTEL FLASH PRO 3/4, JTAG, IDC10 Pinheader Connector"
+			(at 130.81 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53207564"
+			(at 130.81 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48628e31-e57b-45c9-97ff-0453ed9ee9ea")
+		)
+		(pin "7"
+			(uuid "dd570640-767d-465f-9467-9d70fde4a34c")
+		)
+		(pin "10"
+			(uuid "9b4a5aed-7429-49a4-bdf5-bf6c3e353b2f")
+		)
+		(pin "8"
+			(uuid "e868d2e5-3fff-4493-a61c-333c22c90d8c")
+		)
+		(pin "3"
+			(uuid "2909a9e0-86d1-4217-baa1-eb89e73edf69")
+		)
+		(pin "6"
+			(uuid "25773332-109e-4267-a4f6-1f62d7d8fae2")
+		)
+		(pin "5"
+			(uuid "c6a1fccf-8b74-4890-a201-bf51a5c1f9c4")
+		)
+		(pin "2"
+			(uuid "f53b753b-b307-4b62-aa7b-a4b636745fcd")
+		)
+		(pin "4"
+			(uuid "1d4ec12d-dd40-4cb4-88f2-ee6588a21a31")
+		)
+		(pin "9"
+			(uuid "44341f68-1d58-4f88-81b4-5cd1b867e617")
+		)
+		(instances
+			(project "3DOF"
+				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 273.05 233.68 0)
 		(unit 1)
@@ -6049,6 +7011,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C105621"
+			(at 255.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ae6be79-289c-42eb-891e-4801371de105")
 		)
@@ -6164,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Value" "ESD5Zxx"
+		(property "Value" "ESD5Z3V3"
 			(at 220.98 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,6 +7170,17 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 220.98 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C502545"
 			(at 220.98 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -6357,6 +7341,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 326.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C99782"
 			(at 326.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6914,6 +7909,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 233.68 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cb1f5df2-1356-44b9-89f3-c0420ea6e414")
 		)
@@ -6924,6 +7930,84 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 128.27 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b85e1e6-dbba-48a7-8838-b129bff2fbe7")
+		(property "Reference" "#PWR063"
+			(at 128.27 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 128.27 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 128.27 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eae6a32a-bd65-4e73-a306-efc407d66ffc")
+		)
+		(instances
+			(project "3DOF"
+				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7327,7 +8411,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "100nF 50V"
 			(at 223.52 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,6 +8445,17 @@
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
 			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 223.52 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,7 +8502,7 @@
 				)
 			)
 		)
-		(property "Value" "C_0603"
+		(property "Value" "100nF 50V"
 			(at 263.398 211.074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,6 +8545,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 262.89 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0d90c8f-19a0-40a2-90dd-874fa573709c")
 		)
@@ -7460,6 +8566,121 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:B0540W_C7420325")
+		(at 128.27 214.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "930f4c7c-03b3-49a5-832f-07576a374fbb")
+		(property "Reference" "D24"
+			(at 130.81 213.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B0540W"
+			(at 130.81 215.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOD-123_L2.7-W1.6-LS3.7-FD"
+			(at 135.89 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420325.pdf"
+			(at 138.43 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "R+O(宏嘉诚)"
+			(at 140.97 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B0540W"
+			(at 143.51 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7420325"
+			(at 146.05 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9cb29308-c4c7-463a-b27f-41d107f70632")
+		)
+		(pin "1"
+			(uuid "0c7c6504-af94-443e-a25e-c2a2547431be")
+		)
+		(instances
+			(project "3DOF"
+				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7487,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Value" "ESD5Zxx"
+		(property "Value" "ESD5Z3V3"
 			(at 262.89 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,6 +8751,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C502545"
+			(at 262.89 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48a247e4-e25a-49a2-8782-a1609e72c9e9")
 		)
@@ -7540,6 +8772,83 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 130.81 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a792b48b-8fba-4db4-a799-c6afb0bd966f")
+		(property "Reference" "#PWR062"
+			(at 130.81 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 259.588 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dc291c6-e4f7-450e-bade-bfc6d3623dd3")
+		)
+		(instances
+			(project "3DOF"
+				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8042,6 +9351,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C99782"
+			(at 322.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b34b2838-c7ac-494c-b739-7141266bdcc1")
 		)
@@ -8237,6 +9557,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C105621"
+			(at 228.6 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0524357-9fb7-4619-b600-814ebdd9f752")
 		)
@@ -8309,6 +9640,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 170.18 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14664"
 			(at 170.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8479,6 +9821,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 252.73 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce1e7cd6-1b9b-4f9e-8725-beb3bda81545")
 		)
@@ -8516,7 +9869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 50V"
 			(at 179.07 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,6 +9903,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C100042"
 			(at 175.26 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8632,6 +9996,17 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 381 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C95204"
 			(at 381 48.26 0)
 			(hide yes)
 			(show_name no)
