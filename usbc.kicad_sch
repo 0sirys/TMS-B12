@@ -3969,7 +3969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 209.55 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C108407"
+		(property "LCSC Part" "C25105"
 			(at 198.12 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -4140,7 +4140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 273.3548 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +4173,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 274.32 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4232,7 +4232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 204.47 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4265,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14677"
+		(property "LCSC Part" "C25905"
 			(at 193.04 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -4559,7 +4559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 341.9348 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4592,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 342.9 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4907,7 +4907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 223.52 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4940,7 +4940,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C108407"
+		(property "LCSC Part" "C25105"
 			(at 212.09 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +5000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5033,7 +5033,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14677"
+		(property "LCSC Part" "C25905"
 			(at 184.15 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -5355,7 +5355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 265.7348 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5388,7 +5388,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6080,7 +6080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C107696"
+		(property "LCSC Part" "C25091"
 			(at 118.11 127 0)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6161,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF 16V"
+		(property "Value" "10uF 25V"
 			(at 145.034 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6205,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1713"
+		(property "LCSC Part" "C15850"
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)

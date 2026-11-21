@@ -620,13 +620,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad_MP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -634,7 +630,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -643,8 +639,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -675,7 +671,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -697,7 +693,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -708,9 +704,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_MP_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -718,26 +714,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2801,7 +2777,7 @@
 		(uuid "ffdbab46-e14c-4ad6-a22a-c345c44a0843")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole")
 		(at 40.64 248.92 0)
 		(mirror y)
 		(unit 1)
@@ -2834,7 +2810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 40.64 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -2856,7 +2832,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole without connection"
 			(at 40.64 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -2866,9 +2842,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "bcf9308a-97f3-489d-8a0d-e42071f1ecce")
 		)
 		(instances
 			(project "3DOF"
@@ -3499,7 +3472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole")
 		(at 39.37 229.87 0)
 		(unit 1)
 		(body_style 1)
@@ -3511,7 +3484,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a31ddc2-0eda-4dfd-bde2-ffb0b5e3f518")
 		(property "Reference" "H1"
-			(at 41.91 227.3299 0)
+			(at 41.91 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3522,7 +3495,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 41.91 229.8699 0)
+			(at 41.91 231.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3532,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 39.37 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -3554,7 +3527,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole without connection"
 			(at 39.37 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -3564,9 +3537,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "d674e92a-1ab6-4718-a048-37a7f8d2eec8")
 		)
 		(instances
 			(project "3DOF"
@@ -4694,7 +4664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole")
 		(at 69.85 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -4706,7 +4676,7 @@
 		(fields_autoplaced yes)
 		(uuid "a516f0a7-db61-443c-9d89-83b069e7ac04")
 		(property "Reference" "H3"
-			(at 72.39 247.6499 0)
+			(at 72.39 248.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4717,7 +4687,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 72.39 250.1899 0)
+			(at 72.39 251.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4727,7 +4697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 69.85 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -4749,7 +4719,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole without connection"
 			(at 69.85 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -4759,9 +4729,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "e84df3d5-221e-4862-ab2a-59ea968cebd0")
 		)
 		(instances
 			(project "3DOF"
@@ -5291,7 +5258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(lib_id "Mechanical:MountingHole")
 		(at 69.85 228.6 0)
 		(unit 1)
 		(body_style 1)
@@ -5303,7 +5270,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaae307f-c823-4e3f-9083-a469c952458a")
 		(property "Reference" "H2"
-			(at 72.39 226.0599 0)
+			(at 72.39 227.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5314,7 +5281,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 72.39 228.5999 0)
+			(at 72.39 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5324,7 +5291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 69.85 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -5346,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole without connection"
 			(at 69.85 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -5356,9 +5323,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "MP"
-			(uuid "90afa130-7428-4bc8-bed5-1a772ba6968a")
 		)
 		(instances
 			(project "3DOF"

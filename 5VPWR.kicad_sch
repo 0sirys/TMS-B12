@@ -1963,12 +1963,6 @@
 		)
 	)
 	(junction
-		(at 237.49 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09950e89-58cf-4925-b4be-d5692a2b69b5")
-	)
-	(junction
 		(at 246.38 139.7)
 		(diameter 0.762)
 		(color 0 0 0 0)
@@ -1999,6 +1993,12 @@
 		(uuid "7d08aec6-f9a3-4cca-be36-5da4133d91c7")
 	)
 	(junction
+		(at 237.49 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87999170-353f-4821-9886-a30008520eb9")
+	)
+	(junction
 		(at 179.07 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2011,16 +2011,16 @@
 		(uuid "974c9d33-8686-4f89-987d-babd2ba5b2f0")
 	)
 	(junction
+		(at 246.38 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c889be25-dd98-4875-8317-cd4870ca3793")
+	)
+	(junction
 		(at 237.49 139.7)
 		(diameter 0.762)
 		(color 0 0 0 0)
 		(uuid "d02767a7-d7ad-427a-a6cf-d80da9802563")
-	)
-	(junction
-		(at 246.38 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d25ab183-dbde-45b8-9156-1b77c5b974b8")
 	)
 	(junction
 		(at 158.75 161.29)
@@ -2092,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 175.26) (xy 237.49 175.26)
+			(xy 246.38 152.4) (xy 237.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 175.26) (xy 246.38 171.45)
+			(xy 246.38 151.13) (xy 246.38 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 185.42) (xy 246.38 187.96)
+			(xy 246.38 162.56) (xy 246.38 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2199,16 +2199,6 @@
 			(type default)
 		)
 		(uuid "51cebefc-6d0f-4071-be22-0df2546e93f3")
-	)
-	(wire
-		(pts
-			(xy 246.38 153.67) (xy 246.38 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3287bb-dafd-4695-b5e2-4765523e3c0e")
 	)
 	(wire
 		(pts
@@ -2312,6 +2302,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 152.4) (xy 246.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e36de66-733f-457f-84c6-704fc82bb66a")
+	)
+	(wire
+		(pts
 			(xy 187.96 139.7) (xy 182.88 139.7)
 		)
 		(stroke
@@ -2319,26 +2319,6 @@
 			(type default)
 		)
 		(uuid "8f3e03b6-94ef-4161-bb0f-beeb4ff16d16")
-	)
-	(wire
-		(pts
-			(xy 246.38 177.8) (xy 246.38 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93c3c85e-0a38-4674-96da-eeb5d68b7809")
-	)
-	(wire
-		(pts
-			(xy 237.49 175.26) (xy 237.49 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab32e9f-da59-435b-936c-9ec3533bd796")
 	)
 	(wire
 		(pts
@@ -2389,16 +2369,6 @@
 			(type default)
 		)
 		(uuid "b92d6c56-c13f-4195-9ddf-8b3d5dea9556")
-	)
-	(wire
-		(pts
-			(xy 246.38 163.83) (xy 246.38 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba81a667-b31f-4f6d-97ab-29cb2f4ee4a3")
 	)
 	(wire
 		(pts
@@ -2522,7 +2492,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 246.38 181.61 0)
+		(at 246.38 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2533,7 +2503,7 @@
 		(fields_autoplaced yes)
 		(uuid "00f9fae2-b93e-4d54-9fa9-66c1ab516a06")
 		(property "Reference" "R34"
-			(at 248.92 180.3399 0)
+			(at 248.92 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2543,8 +2513,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
-			(at 248.92 182.8799 0)
+		(property "Value" "13K"
+			(at 248.92 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2555,7 +2525,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 246.38 193.04 0)
+			(at 246.38 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2566,7 +2536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 181.61 0)
+			(at 246.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2577,7 +2547,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 246.38 181.61 0)
+			(at 246.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,8 +2557,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C100001"
-			(at 246.38 181.61 0)
+		(property "LCSC Part" "C22797"
+			(at 246.38 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2687,99 +2657,6 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 246.38 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "165d8228-50c6-42cc-b7b6-c552feaaaf0d")
-		(property "Reference" "R37"
-			(at 248.92 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "75K"
-			(at 248.92 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 246.38 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C114636"
-			(at 246.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "879442fc-7e85-4667-8c8e-2af6c198a8e2")
-		)
-		(pin "2"
-			(uuid "3853ed73-0d70-4432-91c6-cbae887c7694")
-		)
-		(instances
-			(project "3DOF"
-				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2887,7 +2764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF 10V"
+		(property "Value" "2.2uF 16V"
 			(at 276.86 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +2808,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49326632"
+		(property "LCSC Part" "C23630"
 			(at 273.05 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3069,7 +2946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 180.0352 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +2979,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 179.07 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3321,7 +3198,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 187.96 0)
+		(at 246.38 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3333,7 +3210,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e80c296-d005-4af7-8af9-0fb06ab83f9c")
 		(property "Reference" "#PWR067"
-			(at 246.38 194.31 0)
+			(at 246.38 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3344,7 +3221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 193.04 0)
+			(at 246.38 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3354,7 +3231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 187.96 0)
+			(at 246.38 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +3242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 187.96 0)
+			(at 246.38 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 187.96 0)
+			(at 246.38 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 216.8652 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3464,7 +3341,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C307331"
 			(at 215.9 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3677,192 +3554,6 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 246.38 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f1cdefa-95c0-40b2-839f-214c39fbc172")
-		(property "Reference" "R22"
-			(at 248.92 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "75K"
-			(at 248.92 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 246.38 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 246.38 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C114636"
-			(at 246.38 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68e990b9-d6fe-4c2a-be5a-443888b72111")
-		)
-		(pin "2"
-			(uuid "461439cd-50d7-452a-b88c-b5175137122a")
-		)
-		(instances
-			(project "3DOF"
-				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 246.38 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2d42b3e-de4d-43de-8223-bb4cf763a41e")
-		(property "Reference" "R38"
-			(at 248.92 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.9K"
-			(at 248.92 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 246.38 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
-			(at 246.38 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C861541"
-			(at 246.38 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43da3298-4955-4ced-b003-30163b8a1617")
-		)
-		(pin "2"
-			(uuid "5f21f36d-46f8-4da5-b62f-55532784ee26")
-		)
-		(instances
-			(project "3DOF"
-				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4095,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF 16V"
+		(property "Value" "100pF 50V"
 			(at 233.68 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
 			(at 236.5248 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4139,7 +3830,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C519407"
+		(property "LCSC Part" "C1546"
 			(at 237.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4188,7 +3879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF 10V"
+		(property "Value" "2.2uF 16V"
 			(at 262.89 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +3923,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C49326632"
+		(property "LCSC Part" "C23630"
 			(at 266.7 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4380,6 +4071,99 @@
 			(project "3DOF"
 				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 246.38 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f205954b-4351-485a-a05b-1fc850d1fca5")
+		(property "Reference" "R37"
+			(at 248.92 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68K"
+			(at 248.92 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 246.38 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23231"
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "572ebb94-2ceb-46ca-bce3-a78ef0fc37d9")
+		)
+		(pin "2"
+			(uuid "a68d6fa8-bbe4-4296-a704-0ce6db771f96")
+		)
+		(instances
+			(project "3DOF"
+				(path "/3b7df669-0988-472c-92cb-3be63d2be1fc/cc917128-f3b8-40bb-9da2-690cdac85110/ae310557-b80d-402f-8003-22e0364b9dd8"
+					(reference "R37")
 					(unit 1)
 				)
 			)

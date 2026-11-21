@@ -765,7 +765,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC Part"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -808,7 +808,7 @@
         "uuid": "3b7df669-0988-472c-92cb-3be63d2be1fc"
       }
     ],
-    "used_designators": "U1-5,#PWR1-58,#PWR60-65,#PWR67-69,#PWR71,#PWR73-95,SW1-2,X1,R1-38,C1-12,C14,C16-30,CN1-13,RN1-3,D1-17,D19-24,JP1-4,JP7-9,USB1,LED1,Q1-3,H1-4,L1-3,J1",
+    "used_designators": "U1-5,#PWR1-58,#PWR60-65,#PWR67-69,#PWR71,#PWR73-95,SW1-2,X1-2,R1-38,C1-12,C14,C16-30,CN1-13,RN1-3,D1-17,D19-24,JP1-4,JP7-9,USB1,LED1,Q1-3,H1-4,L1-3,J1",
     "variants": []
   },
   "sheets": [

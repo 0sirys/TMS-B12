@@ -2408,7 +2408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 143.51 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2441,7 +2441,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C107696"
+		(property "LCSC Part" "C25091"
 			(at 154.94 111.76 90)
 			(hide yes)
 			(show_name no)
